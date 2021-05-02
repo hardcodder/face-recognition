@@ -124,7 +124,7 @@ database["bertrand"] = img_to_encoding("images/bertrand.jpg", FRmodel)
 database["kevin"] = img_to_encoding("images/kevin.jpg", FRmodel)
 database["benoit"] = img_to_encoding("images/benoit.jpg", FRmodel)
 database["arnaud"] = img_to_encoding("images/arnaud.jpg", FRmodel)
-database["shivam"] = img_to_encoding("images/shivam.jpg", FRmodel)
+#database["shivam"] = img_to_encoding("images/shivam.jpg", FRmodel)
 database["tom"] = img_to_encoding("images/tom.jpg", FRmodel)
 
 #we are making folder for every key in database dictionary
