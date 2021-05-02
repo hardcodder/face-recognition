@@ -155,6 +155,7 @@ for root, dirs, files in os.walk(yourpath, topdown=False):
     for key in database:
         if (verify('/content/FaceRecognition/images/' + str(name), key, database, FRmodel)):
             shutil.move('/content/FaceRecognition/images/' + str(name), "/content/FaceRecognition/" + key + "/")
+            print("Moved " , key)
             break
 
 
